@@ -10,7 +10,7 @@ function zhuce() {
 function upperCase()
 {
 	var phone = document.getElementById('phone').value;
-	if(!(/^1[34578]\d{9}$/.test(phone))) {
+	if(!(/^1[345789]\d{9}$/.test(phone))) {
 		alert("手机号码有误，请重填");
 		return false;
 	}
