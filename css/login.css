@@ -49,22 +49,28 @@
 				margin: auto 0 auto 33px;
 				float: left;
 				height: 45px;
-				width: 110px;
+				width: 150px;
 			}
 			
-			.telnum {
+			.userName {
 				float: right;
 				height: 45px;
 				width: 387px;
 				text-align: left;
 			}
+			 input::-webkit-input-placeholder {
+
+         font-size: 15px;
+         /* placeholder位置  */
+         text-align: left;
+    }
 			
 			.mess {
 				width: 450px;
 				height: 60px;
 			}
 			
-			.message {
+			.passWord {
 				margin: auto 43px;
 				border: 0 solid #EBEBEB;
 				border-bottom: 1px solid #EBEBEB;
@@ -87,6 +93,7 @@
 			}
 			
 			.register {
+				margin: 40px 0px auto;
 				width: 350px;
 				height: 40px;
 				font-size: 15px;
@@ -102,7 +109,8 @@
 				font-size: 14px;
 			}
 			
-			.xieyi {
+			.log {
+				margin-left:40px;
 				float: left;
 				color: #8590A6;
 			}
@@ -133,10 +141,10 @@
 			.voice a:visited,
 			.voice a:active,
 			.voice a:hover,
-			.xieyi a:link,
-			.xieyi a:visited,
-			.xieyi a:active,
-			.xieyi a:hover {
+			.log a:link,
+			.log a:visited,
+			.log a:active,
+			.log a:hover {
 				text-decoration: none;
 				color: #8590A6;
 			}
@@ -201,13 +209,14 @@
 			input {
 				border: 0;
 				border-bottom: 1px solid #EBEBEB;
-				padding: 10px 0 0 0;
+				padding: 10px 0 0 10px;
+				text-align: left;
 			}
 			
-			.message input {
-				width: 200px;
+			.userName input {
+				width: 220px;
 			}
 			
-			.telnum input {
-				width: 200px;
+			.passWord input {
+				width: 220px;
 			}
