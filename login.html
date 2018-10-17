@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>逼乎 - 编出更好的故事</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+		<!-- 背景动画 -->
+		<canvas id="c_n9" width="1920" height="990" style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;"></canvas>
+		<script src="js/canvas-nest.min.js"></script>
+		
+		<div class="content">
+			<div class="main">
+				<div class="SignHeader" style="padding-bottom:5px;">
+					<span style="font-size:65px ;">逼</span>
+					<span style="font-size:65px ;">乎</span>
+					<div class="Signslogen"> 登录逼乎，与世界分享你刚编的故事</div>
+				</div>
+				<div class="tel">
+					<div class="userName"><input type="text" placeholder="手机号/账号"  id="phone" /></div>
+				</div>
+				<div class="mess">
+					<div class="passWord"><input type="text" placeholder="密码" /></div>
+					<div class="getmess" onclick="upperCase()" >
+						<a href="#">忘记密码？</a>
+					</div>
+				</div>
+				<!--<div class="voice">
+					<a href="#">接收语音验证码</a>
+				</div>-->
+				<a href="index.html">
+					<button class="register" onclick="login()">登录</button>
+				</a>
+				<div class="zhuce">
+					<div class="log">
+						<a href="#">二维码登录</a>
+						<span> ·  </span>
+						<a href="#">海外手机登陆</a>
+						<span> · </span>
+						<a href="#">社交账号登录</a>
+					</div>
+					<!--<div class="jigouhao">
+						<a href="#">注册机构号</a>
+					</div>-->
+				</div>
+				<div class="login">
+					<div class="logina">没有帐号?
+						<a href="join.html">注册</a>
+					</div>
+				</div>
+			</div>
+			<button class="download">				下载逼乎 App			</button>
+			<div class="foot">
+				<div class="one">
+					<a href="#" target="_blank">逼乎专栏·</a>
+					<a href="#" target="_blank">圆桌·</a>
+					<a href="#" target="_blank">发现·</a>
+					<a href="#" target="_blank">移动应用·</a>
+					<a href="#" target="_blank">联系我们·</a>
+					<a href="#" target="_blank">来知乎工作·</a>
+					<a href="#" target="_blank">注册机构号</a>
+				</div>
+				<div class="two"> &copy; 2018 逼乎·
+					<a href="#" target="_blank">京 ICP 证 110745 号·</a> 京公网安备 11010802010035
+					<a href="#" target="_blank">号出版物经营许可证</a>
+				</div>
+				<div class="three">
+					<a href="#" target="_blank">侵权举报·</a>
+					<a href="#" target="_blank">网上有害信息举报专区·</a>
+					<a href="#" target="_blank">儿童色情信息举报专区·</a> 违法和不良信息举报：010-82716601 </div>
+				<hr />
+			</div>
+		</div>
+	</body>
+
+</html>

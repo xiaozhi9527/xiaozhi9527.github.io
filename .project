@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>逼乎</name>
-	<comment>Create By HBuilder</comment>
+	<name>bihu</name>
+	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -16,34 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1538964595405</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.orFilterMatcher</id>
-				<arguments>
-					<matcher>
-						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-matches-false-false-bin</arguments>
-					</matcher>
-					<matcher>
-						<id>org.eclipse.ui.ide.multiFilter</id>
-						<arguments>1.0-projectRelativePath-matches-false-false-setting</arguments>
-					</matcher>
-				</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1539130808056</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1539130808057</id>
+			<id>1539735793640</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
