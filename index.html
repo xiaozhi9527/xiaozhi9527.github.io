@@ -1,266 +1,101 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 
-<head>
-    <title>主页</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
+	<head>
+		<meta charset="utf-8" />
+		<title>逼乎 - 编出更好的故事</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-    <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- how it works -->
-    <link href="css/timeline.css" type="text/css" rel="stylesheet" media="all">
-    <!-- grid hover -->
-    <link href="css/hover.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-    <!-- //online-fonts -->
-</head>
-
-<body>
-    <!-- banner -->
-    <div class="banner" id="home">
-        <!-- header -->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
-                <h1>
-                    <a class="navbar-brand text-white" href="index.html">
-                        逼乎否？&nbsp;&nbsp;BiHu.gq
-                    </a>
-                </h1>
-                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item active  mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">主页
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item  mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link scroll" href="#about">关于逼乎</a>
-                        </li>
-                        <li class="nav-item dropdown mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                网站运营
-                            </a>                        
-                        </li>
-                        <li class="nav-item mr-lg-3 mt-lg-0 mt-3">
-                            <a class="nav-link scroll" href="#contact">联系我们</a>
-                        </li>
-                        <li>
-                        	<a href="join.html">
-                        		
-                        		<button type="button" class="btn  ml-lg-2 w3ls-btn" data-toggle="modal" aria-pressed="false"
-                        		    data-target="#exampleModal">
-                        		    <i class="far fa-user-circle"></i>
-                        		</button>
-                        	</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-        </header>
-        <!-- //header -->
-        <div class="container">
-            <div class="banner-text">
-                <div class="slider-info">
-                    <h3>深夜，躺在床上刚编了一个好故事，却没地方分享？</h3>
-                    <p class="text-white mt-sm-4 mt-2">这个时候，你只需要登上我们的逼乎。</br>动动手指，就可以和全世界的分享你刚编的故事！</p>
-                    <a class="btn btn-primary mt-4 agile-link-bnr scroll" href="#about" role="button">了解更多</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //banner -->
-    <!-- about -->
-    <div class="about-w3sec py-sm-5" id="about">
-        <div class="container py-5">
-            <div class="title-section pb-4">
-                <h3 class="main-title-agile">相信自己会是一个编故事的好手</h3>
-                <span class="title-line">
-                </span>
-            </div>
-            <div class="ins-sec1">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="abt-block mb-lg-0 mb-5">
-                            <div class="serv_abs serv_bottom">
-                                <i class="fas fa-home"></i>
-                            </div>
-                            <h3>在家时</h3>
-                            <p>当你的伴侣，拖着疲惫不堪的身体回家时，当你的孩子深夜还未入梦时。TA们所需要的，仅仅是一个好故事。</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 my-lg-0 my-md-5">
-                        <div class="abt-block">
-                            <div class="serv_abs serv_bottom">
-                                <i class="fas fa-car"></i>
-                            </div>
-                            <h3>开车出行时</h3>
-                            <p>开车出行的时候，难免会避免一些路途上不必要的烦闷，不要做低头族！给你身边的人讲一个好故事！</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mt-lg-0 mt-md-5">
-                        <div class="abt-block mt-md-0 mt-5">
-                            <div class="serv_abs serv_bottom">
-                                <i class="fas fa-plane"></i>
-                            </div>
-                            <h3>乘坐航班时</h3>
-                            <p>当你乘上航班时，只要你的外语足够好，一定要给旁座的外国友人来一个故事，看看能不能让他捧腹大笑！</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-lg-5">
-                    <div class="col-lg-8 mx-auto mt-5">
-                        <div class="row">
-                            <div class="col-lg-6 my-lg-0 my-md-5">
-                                <div class="abt-block">
-                                    <div class="serv_abs  serv_bottom">
-                                        <i class="fas fa-hand-holding-heart"></i>
-                                    </div>
-                                    <h3>在社交场所时</h3>
-                                    <p>相信我！在这种场合下！给你刚认识的陌生人讲一个你编过的最的精彩绝伦的故事，绝对能赢得TA的好感！
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mt-lg-0 mt-5">
-                                <div class="abt-block">
-                                    <div class="serv_abs  serv_bottom">
-                                        <i class="fas fa-hand-holding-usd"></i>
-                                    </div>
-                                    <h3>在和客户交谈时</h3>
-                                    <p>噢!我的老伙计，相信我！如果你连故事都编不好的话那你将会何在客户交谈时失去一大堆订单！
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //about -->
-    <!-- footer -->
-    <div class="footerv4-w3ls" id="footer">
-        <div class="footerv4-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 footv4-left">
-                        <h3>关于我们</h3>
-                        <h2>
-                            <a href="index.html">逼乎</a>
-                        </h2>
-                        <p class="text-white">相信我们，我们会让全世界都看到你的故事，让你的身影遍布世界的每一个角落。
-                            这就是我们，我们是逼乎团队。</p>
-                        <div class="footerv4-social">
-                            <h3>在社交媒体上关注我们</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <span class="fab fa-facebook-f icon_facebook"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="fab fa-twitter icon_twitter"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="fab fa-dribbble icon_dribbble"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span class="fab fa-google-plus icon_g_plus"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- //footer social -->
-
-                    </div>
-                    <div class="col-lg-3 col-sm-6 footv4-content mt-sm-0 mt-4">
-                        <h3>特色内容</h3>
-                        <ul class="v4-content">
-                            <li>
-                                <a href="index.html">主页</a>
-                            </li>
-                            <li>
-                                <a href="#about" class="scroll">关于我们</a>
-                            </li>
-                            <li>
-                                <a href="#work" class="scroll">网站运营</a>
-                            </li>
-                            <li>
-                                <a href="#testi" class="scroll">推荐信</a>
-                            </li>
-                            <li>
-                                <a href="#contact" class="scroll">与我们接触</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 footv4-left fv4-g3 my-lg-0 my-4">
-                        <h3>最新内容</h3>
-                        <ul class="v4-rel">
-                            <li>
-                                <a href="#">
-                                    关于为何最近几年男生开始不主动追求女生了？
-                                </a>
-                                <p class="text-white">10.15, 2018</p>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    关于为什么有些男生会喜欢做“舔狗”？
-                                </a>
-                                <p class="text-white">10.18, 2018</p>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    你听过从小孩子嘴里说出的最恐怖的话是哪一句？
-                                </a>
-                                <p class="text-white"> 10.20, 2018</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 footv4-left">
-                       <h3>留下你的联系方式</h3>
-                        <form action="#" method="post">
-                            <input type="text" placeholder="你的姓名" name="name" required>
-                            <input type="email" placeholder="你的电子邮箱" name="email" required>
-                            <input type="submit" value="提交">
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!-- /footerv4-top -->
-        </div>
-    </div>
-
-    <!-- //footer -->
-    <div class="cpy-right">
-        <p>Copyright &copy; 2018.Company BIHU All rights reserved.<a  href="http://www.bihu.gq/">逼乎</a>
-        </p>
-    </div>
-</body>
+	<body>
+	<!-- 背景动画 -->
+<canvas id="c_n9" width="1920" height="990" style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;"></canvas>
+<script src="js/canvas-nest.min.js"></script>
+		<div class="content">
+			<div class="main">
+				<div class="SignHeader" style="padding-bottom:5px;">
+					<span style="font-size:65px ;">逼</span>
+					<span style="font-size:65px ;">乎</span>
+					<div class="Signslogen"> 注册逼乎，与世界分享你刚编的故事</div>
+				</div>
+				<div class="tel">
+					<!--<div class="num">
+						<select>
+							<option>中国 +86</option>
+							<option>美国 +1</option>
+							<option>英国 +44</option>
+							<option>新加坡 +65</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+							<option>其他...</option>
+						</select>
+					</div>-->
+					<div class="telnum"><input type="text" placeholder="手机号"  id="phone" /></div>
+				</div>
+				<div class="mess">
+					<div class="message"><input type="text" placeholder="请输入6位短信验证码" /></div>
+					<div class="getmess" onclick="upperCase()" >
+						<a href="#">获取短信验证码</a>
+					</div>
+				</div>
+				<div class="voice">
+					<a href="#">接收语音验证码</a>
+				</div>
+				<button class="register" onclick="zhuce()">注册</button>
+				<div class="zhuce">
+					<div class="xieyi">注册即代表你同意
+						<a href="#">《逼乎协议》</a>
+					</div>
+					<div class="jigouhao">
+						<a href="#">注册机构号</a>
+					</div>
+				</div>
+				<div class="login">
+					<div class="logina">已有帐号?
+						<a href="login.html">登录</a>
+					</div>
+				</div>
+			</div>
+			<button class="download">				下载逼乎 App			</button>
+			<div class="foot">
+				<div class="one">
+					<a href="#" target="_blank">逼乎专栏·</a>
+					<a href="#" target="_blank">圆桌·</a>
+					<a href="#" target="_blank">发现·</a>
+					<a href="#" target="_blank">移动应用·</a>
+					<a href="#" target="_blank">联系我们·</a>
+					<a href="#" target="_blank">来知乎工作·</a>
+					<a href="#" target="_blank">注册机构号</a>
+				</div>
+				<div class="two"> &copy; 2018 逼乎·
+					<a href="#" target="_blank">京 ICP 证 110745 号·</a> 京公网安备 11010802010035
+					<a href="#" target="_blank">号出版物经营许可证</a>
+				</div>
+				<div class="three">
+					<a href="#" target="_blank">侵权举报·</a>
+					<a href="#" target="_blank">网上有害信息举报专区·</a>
+					<a href="#" target="_blank">儿童色情信息举报专区·</a> 违法和不良信息举报：010-82716601 </div>
+				<hr />
+			</div>
+		</div>
+	</body>
 
 </html>
